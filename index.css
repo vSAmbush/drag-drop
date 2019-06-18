@@ -86,3 +86,41 @@ html, body {
 		color: red;
 	}
 }
+
+.link {
+	display: block;
+	font-family: Arial;
+	font-size: 20px;
+	text-decoration: none;
+	border: 2px solid #eee;
+	padding: 10px;
+	color: black;
+}
+
+.link-container {
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.task-link {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border: 1px solid #aaa;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	margin-bottom: 10px;
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	transition: 0.3s all;
+}
+
+.task-link:hover {
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+	background-color: #eee;
+}
